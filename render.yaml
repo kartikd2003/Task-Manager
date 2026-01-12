@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: auth-task-manager
+    env: docker
+    plan: free
+    autoDeploy: true
