@@ -13,3 +13,15 @@ Python, FastAPI, JWT, SQLite, SQLAlchemy
 ## Run Project
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+Task Manager/
+│
+├── app.py
+├── models.py
+├── routes/
+│   ├── auth.py
+│   └── tasks.py
+│
+├── database.db
+├── requirements.txt
+└── README.md
